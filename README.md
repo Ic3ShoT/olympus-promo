@@ -1,4 +1,4 @@
-# Olympus E5 M-II
+# Olympus E5 M-II website
 Simple promo website of Olympus camera. 
 <br>
 <br>
