@@ -1,23 +1,39 @@
 doctype html
 head
-    meta(charset='utf-8')
+    meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width, initial-scale=1.0')
-    link(rel='stylesheet' href='scss/style.css')
-    title Olympus E5 M-II
-.main
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet")
+    link(rel='stylesheet' href='/scss/style.css')
+    title One UI Color
+main
     .nav-container
-        .nav
+        nav
             h1#logo Olympus
             ul
                 li
-                    a(href="#features") Features
+                    a(href='#features') Features
                 li
-                    a(class="order" href="#soon") Order
-
+                    a.order(href='#soon') Order
     section.home
         .showcase
-            h2 Olympus e5 mark 2
-            img(src="/img/olympus_trans.png" alt="olympus-transparent")
+            h2 Olympus E5 M2
+            img(src='./img/olympus.png' alt='')
             .info
-                h3 Small but powerful.
-                p The new Olympus e5 mark 2 offers 4k at 50 fps
+                h3 Truly Best of 2015.
+                p
+                    | The Olympus E-M5 II is a more significant reworking of its predecessor than its looks or choice of sensor seem to suggest.
+
+    footer
+        h1 Olympus 2015
+        ul
+            li
+                a(href='#')
+                    img(src='/img/yt-logo.png' alt='')
+            li
+                a(href='#')
+                    img(src='/img/twitter-logo.png' alt='')
+            li
+                a(href='#')
+                    img(src='/img/instagram-logo.png' alt='')
