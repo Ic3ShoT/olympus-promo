@@ -1,5 +1,51 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
   font-family: sans-serif, Arial;
+}
+
+body {
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 8rem;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+li {
+  font-size: 2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  background: radial-gradient(#525252, #131313);
+}
+
+.nav-container {
+  background: rgb(7, 7, 7);
 }
 
 /*# sourceMappingURL=style.css.map */
